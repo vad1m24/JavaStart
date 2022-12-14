@@ -22,7 +22,7 @@ public class task1 {
     }
 
     public static <Integer> void remove(List<Integer> numbers, Predicate<Integer> predicate) {
-        numbers.removeIf(predicate::test);
+        numbers.removeIf(predicate);
         System.out.println(numbers);
     }
 }
